@@ -17,12 +17,12 @@ const NavBar = () => {
     const Links = basicNavItems.map(route => <Link key={route.id} route={route}></Link>);
 
     return (
-        <nav className='p-5 flex justify-between'>
+        <nav className='p-5 flex justify-between items-center'>
             <span className='flex gap-2' onClick={()=> setOpen(!open)}>
 
                 {open? <X className='md:hidden'></X> : <Menu className='md:hidden'></Menu>}
 
-                <ul className='md:hidden absolute top-12 text-black bg-amber-100 p-2 rounded-sm'>
+                <ul className={`md:hidden duration-700 ${open? 'top-12': '-top-40'} absolute text-black bg-amber-100 p-2 rounded-sm`}>
                     {Links}
                 </ul>
 
