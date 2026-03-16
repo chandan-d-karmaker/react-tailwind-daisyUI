@@ -1,0 +1,43 @@
+[
+  {
+    "id": "basic_pass",
+    "title": "Basic",
+    "price": 29,
+    "currency": "$",
+    "isPopular": false,
+    "buttonText": "Join Basic",
+    "features": [
+      "Access to cardio equipment",
+      "Free locker usage",
+      "Open gym floor access"
+    ]
+  },
+  {
+    "id": "pro_membership",
+    "title": "Pro",
+    "price": 59,
+    "currency": "$",
+    "isPopular": true,
+    "buttonText": "Become a Pro",
+    "features": [
+      "Unlimited gym access",
+      "All group fitness classes",
+      "Sauna & pool access",
+      "1 Free PT session per month"
+    ]
+  },
+  {
+    "id": "vip_all_access",
+    "title": "VIP All-Access",
+    "price": 99,
+    "currency": "$",
+    "isPopular": false,
+    "buttonText": "Get VIP Access",
+    "features": [
+      "Everything in Pro",
+      "Bring a guest for free anytime",
+      "Premium towel service",
+      "Priority class booking"
+    ]
+  }
+]
