@@ -9,7 +9,7 @@ function App() {
     <>
       <header>
         <NavBar></NavBar>
-        <DaisyuiNav></DaisyuiNav>
+        {/* <DaisyuiNav></DaisyuiNav> */}
       </header>
     </>
   )
