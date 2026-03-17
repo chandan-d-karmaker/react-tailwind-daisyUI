@@ -2,7 +2,7 @@
   {
     "id": "basic_pass",
     "title": "Basic",
-    "price": 29,
+    "price": "29$",
     "currency": "$",
     "isPopular": false,
     "buttonText": "Join Basic",
@@ -15,7 +15,7 @@
   {
     "id": "pro_membership",
     "title": "Pro",
-    "price": 59,
+    "price": "59$",
     "currency": "$",
     "isPopular": true,
     "buttonText": "Become a Pro",
@@ -29,7 +29,7 @@
   {
     "id": "vip_all_access",
     "title": "VIP All-Access",
-    "price": 99,
+    "price": "99$",
     "currency": "$",
     "isPopular": false,
     "buttonText": "Get VIP Access",
