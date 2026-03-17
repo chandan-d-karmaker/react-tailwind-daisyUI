@@ -5,6 +5,7 @@ import DaisyuiNav from './components/daisyUI/daisyuiNav'
 import NavBar from './components/navBar/navBar'
 import Prices from './components/prices/prices'
 import DaisyPriceCard from './components/daisyUI/daisyPriceCard'
+import ResultChart from './components/recharts/resultChart'
 
 const PricePromise = fetch('priceData.json').then(res => res.json());
 
@@ -22,6 +23,7 @@ function App() {
           <Prices PricePromise={PricePromise}></Prices>
         </Suspense>
 
+        <ResultChart></ResultChart>
         
       </main>
     </>
