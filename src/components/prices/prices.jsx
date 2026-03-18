@@ -5,7 +5,7 @@ import DaisyPriceCard from '../daisyUI/daisyPriceCard';
 const Prices = ({PricePromise}) => {
 
     const pricingData = use(PricePromise);
-    console.log(pricingData);
+    // console.log(pricingData);
     return (
         <div>
             <h3 className='text-4xl font-semibold text-center mb-10'>Get our membership</h3>

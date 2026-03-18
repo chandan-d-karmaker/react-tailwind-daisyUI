@@ -1,7 +1,7 @@
 import React from 'react';
 
 const DaisyPriceCard = ({ price }) => {
-    console.log(price);
+    // console.log(price);
     const features = price.features;
     return (
         <div className="card bg-base-300 shadow-sm duration-1000 hover:-translate-y-2">
