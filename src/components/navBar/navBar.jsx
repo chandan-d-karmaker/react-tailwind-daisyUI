@@ -15,6 +15,7 @@ const NavBar = () => {
     const [open, setOpen] = useState(false);
 
     const Links = basicNavItems.map(route => <Link key={route.id} route={route}></Link>);
+    
 
     return (
         <nav className='p-5 flex justify-between items-center'>
