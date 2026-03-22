@@ -4,7 +4,7 @@ const DaisyPriceCard = ({ price }) => {
     // console.log(price);
     const features = price.features;
     return (
-        <div className="-z-10 card bg-base-300 shadow-sm duration-1000 hover:-translate-y-2">
+        <div className="card bg-base-300 shadow-sm duration-1000 hover:-translate-y-2">
             <div className="card-body">
                 <span className="badge badge-xs badge-warning">{price.isPopular ? 'Very Popular' : 'Not Popular'}</span>
                 <div className="flex justify-between">
